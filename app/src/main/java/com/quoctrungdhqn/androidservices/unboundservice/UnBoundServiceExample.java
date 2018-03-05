@@ -33,7 +33,7 @@ public class UnBoundServiceExample extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         mMediaPlayer.start();
-        return START_NOT_STICKY; // Service sẽ không chạy lại khi bị hủy bởi hệ thống hoặc người dùng
+        return START_STICKY; // Service sẽ chạy lại khi bị hủy bởi hệ thống hoặc người dùng
     }
 
     @Override

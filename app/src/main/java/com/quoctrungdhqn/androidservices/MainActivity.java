@@ -10,7 +10,7 @@ import com.quoctrungdhqn.androidservices.unboundservice.UnBoundServiceActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnBoundService, btnUnBoundService, btnIntentService;
+    Button btnUnBoundService, btnBoundService, btnIntentService;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
