@@ -17,8 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".unboundservice.UnBoundServiceActivity" />
+        <activity android:name=".boundservice.BoundServiceActivity" />
 
-        <service android:name=".BoundServiceExample" />
+        <service android:name=".boundservice.BoundServiceExample" />
         <service android:name=".unboundservice.UnBoundServiceExample" />
         <service android:name=".IntentServiceExample" />
     </application>
